@@ -218,10 +218,10 @@ main > section {
 
 /* Footer styles */
 .footer {
-  max-width: 1140px;
+  max-width: 1440px;
   margin: 130px auto;
   text-align: center;
-  padding: 40px 13rem;
+  padding: 40px;
   font-size: 1.25rem
 }
 
@@ -263,9 +263,9 @@ main > section {
   }
 
   .footer {
-    max-width: 576px;
-    padding: 40px 20px;
+    padding: 30px;
     line-height: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -291,5 +291,9 @@ main > section {
   #experience-badge {
     margin-top: 20px;
     margin-left: 20px;
+  }
+
+  .footer {
+    margin-bottom: 0;
   }
 }
