@@ -126,6 +126,29 @@ main > section {
   margin-bottom: 32px;
 }
 
+/* features styles */
+#title-left-border {
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+
+.features {
+  gap: 100px;
+}
+
+.feature-card {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+.feature-card .feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
 /* some facts related style */
 .facts-container {
   display: grid;
